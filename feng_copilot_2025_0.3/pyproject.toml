@@ -17,3 +17,6 @@ dependencies = [
     "streamlit>=1.44.1",
     "pyarrow==19.0.0"
 ]
+
+[tool.uv]
+exclude = ["psycopg2"]
